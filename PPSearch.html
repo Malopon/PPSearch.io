@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Product-price-search</title>
+    <meta name="author" content="Malo-Pon">
+    <meta name="description" content="インターネット上にある商品の値段を検索するウェブアプリ">
+    <meta name="keywords" content="price search">
+  </head>
+  <body><br>
+    <h1>検索条件設定</h1>
+    <form id="searchForm" action="/search" method="post">
+      <!-- 検索フォームをサーバーに送信するためのformを追加 -->
+      <table style="width: 766px; height: 269px;" cellspacing="2" cellpadding="2" border="0">
+        <tbody>
+          <tr>
+            <td>カテゴリー</td>
+            <td style="height: 10.2833px;">
+              	<input name="category" placeholder="カテゴリー" type="search"></td>
+          </tr>
+          <tr>
+            <td>商品名</td>
+            <td><input name="商品名" placeholder="商品名" type="search"></td>
+          </tr>
+          <tr>
+            <td>販売単位</td>
+            <td><input name="販売単位" placeholder="販売単位" type="search"></td>
+          </tr>
+          <tr>
+            <td>販売価格</td>
+            <td><input name="販売価格" placeholder="販売価格" type="search"></td>
+          </tr>
+          <tr>
+            <td>URL:ドメイン </td>
+            <td><textarea name="URL:ドメイン" placeholder="URL:ドメイン" cols="32" rows="3" maxlength="1024"></textarea></td>
+          </tr>
+          <tr>
+            <td><br>
+            </td>
+            <td>
+              <div style="text-align: center;"> <button type="submit">検索開始</button>
+                <!-- ボタンを押すとフォームがサーバーに送信される --> </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <br>
+    <p><br>
+    </p>
+  </body>
+</html>
