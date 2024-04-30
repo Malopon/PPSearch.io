@@ -1,8 +1,10 @@
 # PPSearch.io
 Product-price-search（商品価格検索）
+
 https://malopon.github.io/PPSearch.io/PPSearch
 
 https://malopon.github.io/PPSearch.io/
+
 
 このアプリケーションでは、商品名・価格・掲載URLなどをボット検索で収集し、テキストのみをCSVファイルに収めて出力するものです。
 
